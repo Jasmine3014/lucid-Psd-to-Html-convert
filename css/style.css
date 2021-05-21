@@ -59,60 +59,6 @@ h2 {
     margin-top: 25px;
 }
 
-.banner .navbar {
-
-}
-
-.banner .navbar .nav-menu {
-
-    float: right;
-    color: #fff;
-    margin: 20px 0;
-}
-
-.banner .navbar .nav-menu .nav-iteam {
-    position: relative;
-    list-style: none;
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 0 5px;
-}
-
-.banner .navbar .nav-menu .nav-iteam .nav-link {
-    text-decoration: none;
-    color: #fff;
-}
-
-.banner .navbar .nav-menu .nav-iteam::after {
-    content: "";
-    position: absolute;
-    background: #008ed6;
-    height: 2px;
-    width: 0;
-    left: 0;
-    bottom: 0;
-    transition: 0.5s linear;
-}
-
-.banner .navbar .nav-menu .nav-iteam::before {
-    content: "";
-    position: absolute;
-    background: #008ed6;
-    height: 2px;
-    width: 0;
-    right: 0;
-    bottom: 0;
-    transition: 0.5s linear;
-}
-
-.banner .navbar .nav-menu .nav-iteam:hover::after {
-    width: 50%;
-}
-
-.banner .navbar .nav-menu .nav-iteam:hover::before {
-    width: 50%;
-}
-
 .banner .hero-area {
 
 }
